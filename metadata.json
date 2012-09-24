@@ -1,30 +1,31 @@
 {
-  "dependencies": {
-    "apt-repo": ">= 0.0.0"
-  },
-  "platforms": {
-  },
-  "maintainer_email": "engineers@nationalfield.com",
-  "version": "0.1.0",
-  "groupings": {
-  },
-  "recommendations": {
-  },
-  "maintainer": "NationalField, LLC",
-  "description": "Installs/Configures node",
-  "recipes": {
-  },
-  "license": "",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "conflicting": {
-  },
-  "replacing": {
+  "suggestions": {
   },
   "providing": {
   },
-  "name": "node",
+  "platforms": {
+    "ubuntu-12.04": ">= 0.0.0"
+  },
+  "conflicting": {
+  },
+  "recommendations": {
+  },
+  "license": "MIT",
+  "recipes": {
+  },
+  "groupings": {
+  },
   "attributes": {
   },
-  "suggestions": {
-  }
+  "replacing": {
+  },
+  "maintainer_email": "engineers@nationalfield.com",
+  "maintainer": "NationalField, LLC",
+  "long_description": "Description\n===========\nInstall node and npm via an apt ppa. See: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager\n\nRequirements\n============\n\n- apt-repo (https://github.com/sometimesfood/chef-apt-repo)\n- ubuntu 12.04\n\nAttributes\n==========\nnone\n\nUsage\n=====\ninclude the node recipe\n",
+  "description": "Installs/Configures node and NPM via apt",
+  "name": "node",
+  "dependencies": {
+    "apt": ">= 0.0.0"
+  },
+  "version": "0.1.0"
 }
