@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "apt-repo": ">= 0.0.0"
+  },
+  "platforms": {
+  },
+  "maintainer_email": "engineers@nationalfield.com",
+  "version": "0.1.0",
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "maintainer": "NationalField, LLC",
+  "description": "Installs/Configures node",
+  "recipes": {
+  },
+  "license": "",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "providing": {
+  },
+  "name": "node",
+  "attributes": {
+  },
+  "suggestions": {
+  }
+}
