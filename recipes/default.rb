@@ -14,14 +14,11 @@ apt_repository "chris-lea-node-js" do
 end
 
 package "nodejs" do
-    version "0.8.9-4chl1~precise1"
 end
 
 package "nodejs-dev" do
-    version "0.8.9-4chl1~precise1"
 end
 
 package "npm" do
-    version "1.1.59-1chl1~precise1"
 end
 
