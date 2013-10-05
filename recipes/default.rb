@@ -15,10 +15,3 @@ end
 
 package "nodejs" do
 end
-
-package "nodejs-dev" do
-end
-
-package "npm" do
-end
-
